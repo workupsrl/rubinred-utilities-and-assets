@@ -19,7 +19,6 @@ else
     echo '';
 fi
 
-if [ ! -f "auth.json" ]; then
 echo '';
 echo '🚧 [1mDownload Setup files from remote[0m';
 unlink composer.json
@@ -27,6 +26,8 @@ unlink composer.lock
 curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-assets/main/setup/auth.json.dist
 curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-assets/main/setup/composer.json
 curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-assets/main/setup/composer.lock
+
+if [ ! -f "auth.json" ]; then
 echo '';
 echo '🚧 [1mGithub Authentication Token[0m';
 echo 'Insert your Github username:';
