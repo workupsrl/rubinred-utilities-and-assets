@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0fd91c8751b0db1579832bff20b7d1e4",
+    "content-hash": "3de02bd07e06d4bc7b39220a4f196d33",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2268,16 +2268,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.80.0",
+            "version": "v8.81.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "8949a2e46b0f274f39c61eee8d5de1dc6a1f686b"
+                "reference": "9cc0efd724ce67a190b1695ba31a27bbb1ae9177"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/8949a2e46b0f274f39c61eee8d5de1dc6a1f686b",
-                "reference": "8949a2e46b0f274f39c61eee8d5de1dc6a1f686b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/9cc0efd724ce67a190b1695ba31a27bbb1ae9177",
+                "reference": "9cc0efd724ce67a190b1695ba31a27bbb1ae9177",
                 "shasum": ""
             },
             "require": {
@@ -2310,7 +2310,7 @@
                 "symfony/var-dumper": "^5.4",
                 "tijsverkoyen/css-to-inline-styles": "^2.2.2",
                 "vlucas/phpdotenv": "^5.4.1",
-                "voku/portable-ascii": "^1.4.8"
+                "voku/portable-ascii": "^1.6.1"
             },
             "conflict": {
                 "tightenco/collect": "<5.5.33"
@@ -2437,7 +2437,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-01-18T15:51:42+00:00"
+            "time": "2022-01-25T16:41:46+00:00"
         },
         {
             "name": "laravel/jetstream",
@@ -14627,88 +14627,6 @@
                 }
             ],
             "time": "2021-07-28T10:34:58+00:00"
-        },
-        {
-            "name": "workup/rubinred-default-entities",
-            "version": "0.1.5",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:workupsrl/rubinred-default-entities.git",
-                "reference": "34eb0c79d15c7e845cf72bc5389a316ffcbe42fe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/workupsrl/rubinred-default-entities/zipball/34eb0c79d15c7e845cf72bc5389a316ffcbe42fe",
-                "reference": "34eb0c79d15c7e845cf72bc5389a316ffcbe42fe",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/collections": "^8.52|^9.0",
-                "illuminate/filesystem": "^8.52|^9.0",
-                "illuminate/support": "^8.51|^9.0",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.4.2",
-                "orchestra/testbench": "^6.19",
-                "phpunit/phpunit": "^9.3.3",
-                "spatie/ray": "^1.30"
-            },
-            "type": "package",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Workup\\RubinredDefaultEntities\\RubinredDefaultEntitiesServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Workup\\RubinredDefaultEntities\\": "src"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Workup\\RubinredDefaultEntities\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ],
-                "test-coverage": [
-                    "php -d xdebug.mode=coverage -r \"require 'vendor/bin/phpunit';\" -- --configuration phpunit.xml --do-not-cache-result --coverage-html coverage"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andrea Pollastri",
-                    "email": "pollastri@workup.it"
-                },
-                {
-                    "name": "Riccardo Slanzi",
-                    "email": "slanzi@workup.it"
-                }
-            ],
-            "description": "A Laravel Package to manage default entities in Rubin Red.",
-            "homepage": "https://github.com/workupsrl/rubinred-default-entities",
-            "keywords": [
-                "default",
-                "entities",
-                "generator",
-                "laravel",
-                "package",
-                "workup",
-                "ymls"
-            ],
-            "support": {
-                "source": "https://github.com/workupsrl/rubinred-default-entities/tree/0.1.5",
-                "issues": "https://github.com/workupsrl/rubinred-default-entities/issues"
-            },
-            "time": "2022-01-25T15:20:09+00:00"
         },
         {
             "name": "workup/rubinred-demo-entities",
