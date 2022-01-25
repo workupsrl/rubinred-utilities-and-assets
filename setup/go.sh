@@ -32,7 +32,7 @@ curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-asset
 if [ -f "composer.lock" ]; then
 unlink composer.lock
 fi
-curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-assets/main/setup/composer.lock
+https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-assets/6b4a0f96f8ea458ffb2c545455757af666603109/setup/composer.lock
 
 if [ ! -f "auth.json" ]; then
 echo '';
