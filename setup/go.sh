@@ -28,7 +28,7 @@ curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-asset
 if [ -f "composer.json" ]; then
 unlink composer.json
 fi
-curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-assets/main/setup/composer.json
+curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-assets/5004c806c78da10a51f0ad70391d5db630bdd526/setup/composer.json
 if [ -f "composer.lock" ]; then
 unlink composer.lock
 fi
