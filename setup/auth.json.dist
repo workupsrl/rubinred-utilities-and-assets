@@ -1,0 +1,8 @@
+{
+    "http-basic": {
+        "github.com": {
+            "username": "YOUR-USERNAME",
+            "password": "TOKEN-XYZ"
+        }
+    }
+}
