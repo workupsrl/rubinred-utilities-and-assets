@@ -21,10 +21,17 @@ fi
 
 echo '';
 echo '🚧 [1mDownload Setup files from remote[0m';
-unlink composer.json
-unlink composer.lock
+if [ ! -f "auth.json.dist" ]; then
+unlink auth.json.dist
+fi
 curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-assets/main/setup/auth.json.dist
+if [ ! -f "composer.json" ]; then
+unlink composer.json
+fi
 curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-assets/main/setup/composer.json
+if [ ! -f "composer.lock" ]; then
+unlink composer.lock
+fi
 curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-assets/main/setup/composer.lock
 
 if [ ! -f "auth.json" ]; then
