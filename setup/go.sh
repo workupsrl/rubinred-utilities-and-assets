@@ -21,6 +21,10 @@ fi
 
 echo '';
 echo '🚧 [1mDownload Setup files from remote[0m';
+if [ -f ".env.devs" ]; then
+unlink .env.devs
+fi
+curl -O https://raw.githubusercontent.com/workupsrl/rubinred-utilities-and-assets/main/setup/.env.devs
 if [ -f "auth.json.dist" ]; then
 unlink auth.json.dist
 fi
