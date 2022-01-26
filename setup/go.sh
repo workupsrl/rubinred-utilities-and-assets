@@ -100,3 +100,4 @@ echo '';
 
 unlink .env.devs
 unlink go.sh
+unlink auth.json.dist
