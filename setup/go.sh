@@ -93,3 +93,5 @@ echo '';
 echo '🍺 [1m Done![0m';
 echo 'Rubin Red Backend application is ready! Run "./vendor/bin/sail composer demo" to try it!';
 echo '';
+
+unlink go.sh
